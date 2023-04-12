@@ -12,7 +12,7 @@ lado_cuadrado = 5
 area_cuadrado = lado_cuadrado * lado_cuadrado
 
 # COMPLETAR - FIN
-print("El area del cuadrado es:", area_cuadrado)
+assert area_cuadrado == 25
 
 """
 Re-Escribir usando el operador de potencia.
@@ -55,7 +55,6 @@ cantidad_a_comprar = presupuesto_disponible // precio
 
 # COMPLETAR - FIN
 
-print("la cantidad a comprar es:",cantidad_a_comprar)
 
 assert cantidad_a_comprar == 2
 
@@ -68,9 +67,8 @@ numero_incalculable = 2 ** 54 - 1
 
 # COMPLETAR - INICIO
 
-es_divisible_por_siete =  numero_incalculable % 7
+es_divisible_por_siete = numero_incalculable % 7 ==0
 
-print("El resto es:", es_divisible_por_siete)
 
 # COMPLETAR - FIN
 
