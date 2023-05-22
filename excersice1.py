@@ -10,6 +10,7 @@ lado_cuadrado = 5
 
 # COMPLETAR - INICIO
 area_cuadrado = lado_cuadrado * lado_cuadrado
+print(area_cuadrado)
 
 # COMPLETAR - FIN
 assert area_cuadrado == 25
